@@ -16,9 +16,27 @@
   <link rel="stylesheet" href="./stile.css">
 
 
+
 </head>
 
 <body>
+  <script>
+    $(window).scroll(function () {
+      if ($(this).scrollTop() >0) {
+        $('.logoinaltonegato').fadeIn(10);
+      } else {
+        $('.logoinaltonegato').fadeOut(10);
+      }
+    });
+    $(window).scroll(function () {
+      if ($(this).scrollTop() >50) {
+        $('.logoinalto').fadeOut(10);
+      } else {
+        $('.logoinalto').fadeIn(10);
+      }
+    });
+  </script>
+
   <div class="row  gigiettostrano"  >
 
     
@@ -56,6 +74,10 @@
       </ul>
     </div>
   </nav>
+
+  
+  
+
 
 
 
@@ -132,7 +154,7 @@
     </div>
   </div>
 
- 
+
 </body>
 
 </html>

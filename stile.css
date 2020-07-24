@@ -32,3 +32,18 @@
       font-size: 40px;
     }
   }
+
+  .imgstrana {
+    display: block;
+    max-width: 1000pc;
+    height: auto;
+  }
+  .gigiettostrano{
+    background-color: #f8f9fa;
+  }
+
+  .staccato {
+
+    padding-left: 25px;
+    padding-right: 25px;
+  }
