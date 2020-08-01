@@ -69,12 +69,12 @@
   
   @font-face {
     font-family: "fontmedio";
-    src:url("D:/documenti/Easyino/aboutUs/sorci/HKGrotesk_2465/TTF/HKGrotesk-Medium.ttf");
+    src:url("./sorci/HKGrotesk_2465/TTF/HKGrotesk-Medium.ttf");
 
   }
   @font-face {
     font-family: "fontgrosso";
-    src:url("D:/documenti/Easyino/aboutUs/sorci/HKGrotesk_2465/TTF/HKGrotesk-Bold.ttf");
+    src:url("./sorci/HKGrotesk_2465/TTF/HKGrotesk-Bold.ttf");
 
   }
 
