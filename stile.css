@@ -1,12 +1,31 @@
-.tessere {
-    background-color: #ffd6a7;
+.tessera {
+   
     color:#01112c;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+
   }
 
+  .tessera-per-carion {
+   
+    color:#01112c;
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+
+  }
+  .titoletto {
+   
+    color:#01112c;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+  }
   .marginauto {
     margin: 60px auto 20px;
     display: block;
@@ -46,4 +65,65 @@
 
     padding-left: 25px;
     padding-right: 25px;
+  }
+  
+  @font-face {
+    font-family: "fontmedio";
+    src:url("D:/documenti/Easyino/aboutUs/sorci/HKGrotesk_2465/TTF/HKGrotesk-Medium.ttf");
+
+  }
+  @font-face {
+    font-family: "fontgrosso";
+    src:url("D:/documenti/Easyino/aboutUs/sorci/HKGrotesk_2465/TTF/HKGrotesk-Bold.ttf");
+
+  }
+
+.font-medio {
+    font-family: fontmedio;
+  }
+  .font-grosso {
+    font-family: fontgrosso;
+  }
+/*
+  .blu{
+    background-color: #246eb9;
+  }
+  .arancione{
+    background-color: #ff6700;
+  }
+  
+  .verde{
+    background-color: #c2e812;
+  }*/
+  
+  .verde{
+    background-color: #6EEB83;
+  }
+  .blu{
+    background-color: #1BE7FF;
+  }
+  .arancione{
+    background-color: #EE6055;
+  }
+  .viola{
+    background-color: #9D8DF1;
+
+  }
+  
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+  }
+  
+
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
